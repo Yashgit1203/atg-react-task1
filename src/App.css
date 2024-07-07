@@ -1,0 +1,111 @@
+*{
+    font-family:'Poppins';
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 100,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.create_acc{
+    position: fixed;
+    bottom: 2%;
+    right: 4%;
+    display: none;
+    z-index: 3;
+}
+
+.collapse-re{
+    display: none !important;
+}
+.desk{
+    display: block !important;
+ }
+ .mobile{
+    display: none !important;
+ }
+.Imp{
+    width: 4rem !important;
+    color: #e7e6e7;
+}
+.btn-re{
+    border:none !important;
+}
+.btn-re:focus{
+    box-shadow:none !important;
+}
+.custom-input {
+    /* border-radius: 0 !important; */
+    border: 1px solid #d9d9db;
+    background: #f7f8fa;
+    height: 2.5rem;
+}
+.m_in{
+    display: none;
+}
+.p_border:nth-child(1){
+    border: 2px solid #8064A2 !important;
+}
+.p_border:nth-child(2){
+    border: 2px solid #77933C !important;
+}
+.p_border:nth-child(3){
+    border: 2px solid #C0504D !important;
+}
+.p_border:nth-child(4){
+    border: 2px solid #0096C8 !important;
+}
+@media (max-width: 990px) {
+    /* .header-nav{
+        display: none;
+    } */
+     .cont{
+        padding:1rem !important;
+        width:60% !important;
+     }
+     .cc-re .btn{
+        background-color: #8064A2 !important;
+        color: #fff;
+        border:none;
+     }
+     .sign-login{
+        display: flex;
+        justify-content: center;
+     }
+     .desk{
+        display: none !important;
+     }
+     .mobile{
+        display: block !important;
+     }
+     .n-logo img{
+        width: 11.25rem !important;
+     }
+     .n-search{
+        display:none !important;
+     }
+     .gg{
+        display: block !important;
+    }
+    .create_acc{
+        display: block;
+    }
+    .collapse-re{
+        display: block !important;
+    }
+    .m_in{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .b-ss{
+        position: absolute;
+        right: 5rem;
+        top:2rem;
+        width: 4rem !important;
+        justify-content: space-between !important;
+    }
+}

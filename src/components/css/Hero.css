@@ -1,0 +1,51 @@
+.hero{
+    height: 42.375rem;
+    width: 100%;
+    position: relative;
+    /* margin: 0; */
+    padding: 0 5.5rem;
+}
+.post-pad{
+    padding: 0 5.5rem;
+}
+@media (max-width:600px) {
+    .hero img{
+        height: 150px !important;
+    }
+    .post-pad{
+        padding: 0 1.5rem;
+    }
+    .hero_text .branding{
+        font-size: 1.45rem;
+        font-weight: bold;
+    }
+    .hero_text .tag-line{
+        font-size: 0.625rem;
+    }
+    .h-form #fb,#go{
+        width: 2rem !important;
+        height: 2rem !important;
+    }
+    .h-form .connect{
+        font-size: 0.7rem !important;
+        bottom: 0.5rem !important;
+        font-weight: bold !important;
+    }
+    
+}
+@media (max-width:980px) {
+    .hero{
+        height: 50% !important;
+        padding: 0 1.5rem;
+    }
+    .post-pad{
+        padding: 0 1.5rem;
+    }
+    .h_btext{
+        display: none;
+    }
+    .h_img img{
+        width: 100% !important;
+    }
+
+}

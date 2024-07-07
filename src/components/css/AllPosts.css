@@ -1,0 +1,94 @@
+.m_sec{
+    margin: 9.5rem 0 !important;
+}
+@media (max-width:600px) {
+    .card-0,.card-1,.card-2,.card-3,.card-4,.card-5{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center !important;
+        padding:0.5rem !important;
+        text-align: center;
+    }
+    .card-0 p,.card-1 p,.card-2 p,.card-3 p,.card-4 p,.card-5 p{
+        padding:0 !important;
+        text-align: center !important;
+    }
+    .card-0 .post-ph,.card-1 .post-ph,.card-2 .post-ph,.card-3 .post-ph,.card-4 .post-ph,.card-5 .post-ph{
+        text-align: center !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .foot{
+        flex-direction: column !important;
+    }
+    .font-re{
+        font-size: 1.2rem !important;
+    }
+    .s-media{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .s-media .btn{
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media (max-width:980px) {
+    .c-footer-dance{
+        flex-direction: column;
+        align-items: center;
+   }
+   .c-footer-dance .first {
+        width: 100%;
+
+   }
+   .c-footer-dance .second {
+        width: 50%;
+        margin-top: 2rem;
+
+   }
+    .card-0,.card-1,.card-2,.card-3,.card-4,.card-5{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center !important;
+        padding:0.5rem !important;
+        text-align: center;
+    }
+    .card-0 p,.card-1 p,.card-2 p,.card-3 p,.card-4 p,.card-5 p{
+        padding:0 !important;
+        text-align: center !important;
+    }
+    .card-0 .post-ph,.card-1 .post-ph,.card-2 .post-ph,.card-3 .post-ph,.card-4 .post-ph,.card-5 .post-ph{
+        text-align: center !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+    .foot{
+        flex-direction: column !important;
+    }
+    .font-re{
+        font-size: 1.2rem !important;
+    }
+    .s-media{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .s-media .btn{
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+}

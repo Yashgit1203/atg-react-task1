@@ -1,0 +1,95 @@
+
+
+@media (max-width:600px) {
+    .card-title{
+        font-size: 18px;
+    }
+    .post-desc,.c-type{
+        font-size: 14px;
+    }
+    .prof_des{
+        font-size: 10px !important;
+        width: 170px;
+    }
+   
+    .card{
+        position: relative;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+   .c-footer-dance{
+        flex-direction: column;
+        align-items: center;
+   }
+   .c-footer-dance .first {
+        width: 100%;
+
+   }
+   .c-footer-dance .second {
+        width: 50%;
+        margin-top: 2rem;
+
+   }
+   .c-footer-btn .btn{
+        width:18rem !important;
+        
+   }
+}
+.card-0:hover{
+    background-color: #8064A2 !important;
+    color: #fff !important;
+}
+.card-0 .post-ph span{
+    color:#8064A2 !important;
+}
+.card-0:hover .post-ph span{
+    color: #fff !important;
+}
+
+.card-0:hover >.c-footer .btn{
+    border: 2px solid #fff !important;
+    color: #fff !important;
+}
+.card-1:hover{
+    background-color: #77933C !important;
+    color: #fff !important;
+}
+.card-1:hover .post-ph span{
+    color: #fff !important;
+}
+.card-1 .post-ph span{
+    color:#77933C !important;
+}
+.card-1:hover >.c-footer .btn{
+    border: 2px solid #fff !important;
+    color: #fff !important;
+}
+.card-2:hover{
+    background-color: #C0504D !important;
+    color: #fff !important;
+}
+.card-2:hover .post-ph span{
+    color: #fff !important;
+}
+.card-2 .post-ph span{
+    color:#C0504D !important;
+}
+.card-2:hover >.c-footer .btn{
+    border: 2px solid #fff !important;
+    color: #fff !important;
+}
+.card-3:hover{
+    background-color: #0096C8 !important;
+    color: #fff !important;
+}
+.card-3:hover .post-ph span{
+    color: #fff !important;
+}
+.card-3 .post-ph span{
+    color:#0096C8 !important;
+}
+.card-3:hover >.c-footer .btn{
+    border: 2px solid #fff !important;
+    color: #fff !important;
+}
